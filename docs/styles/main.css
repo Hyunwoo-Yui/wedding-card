@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: 'KangwonPro'; /* 폰트 이름 설정 */
-    src: url('kangwon.ttf') format('truetype'); /* 같은 폴더(docs/style)에 있으므로 파일 이름만 명시 */
+    src: url('./kangwon.ttf') format('truetype'); /* 같은 폴더(docs/style)에 있으므로 파일 이름만 명시 */
     font-weight: normal;
     font-style: normal;
 }

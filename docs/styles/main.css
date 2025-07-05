@@ -35,6 +35,30 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+@font-face {
+    font-family: 'KangwonPro'; /* 폰트 이름 설정 */
+    src: url('kangwon.ttf') format('truetype'); /* 같은 폴더(docs/style)에 있으므로 파일 이름만 명시 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ww-home-page와 ww-section을 제외한 모든 div에 KangwonPro 폰트 적용 */
+/* body에 먼저 적용하고, ww-home-page와 ww-section은 제외하는 방식으로 처리합니다. */
+body {
+    font-family: 'KangwonPro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* ww-home-page와 ww-section 및 그 하위 요소에는 원래의 폰트를 유지 (또는 다른 폰트 적용) */
+.ww-home-page,
+.ww-home-page *,
+.ww-section,
+.ww-section * {
+    /* 이 부분은 해당 클래스에 원래 적용되어 있던 폰트 또는 원하는 다른 폰트 조합으로 설정해주세요. */
+    /* 현재 HTML에 Google Fonts가 있다면 여기에 적어주시면 됩니다. */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* 만약 특정 Google Font를 사용하고 싶다면 예시: font-family: 'Dosis', sans-serif; */
+}
+
 *,
 *::before,
 *::after {

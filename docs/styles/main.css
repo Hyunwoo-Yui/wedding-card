@@ -42,12 +42,6 @@
     font-style: normal;
 }
 
-/* ww-home-page와 ww-section을 제외한 모든 div에 KangwonPro 폰트 적용 */
-/* body에 먼저 적용하고, ww-home-page와 ww-section은 제외하는 방식으로 처리합니다. */
-body {
-    font-family: 'KangwonPro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
 /* ww-home-page와 ww-section 및 그 하위 요소에는 원래의 폰트를 유지 (또는 다른 폰트 적용) */
 .ww-home-page,
 .ww-home-page *,
@@ -85,7 +79,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'KangwonPro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;

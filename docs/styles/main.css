@@ -49,7 +49,7 @@
 .ww-section * {
     /* 이 부분은 해당 클래스에 원래 적용되어 있던 폰트 또는 원하는 다른 폰트 조합으로 설정해주세요. */
     /* 현재 HTML에 Google Fonts가 있다면 여기에 적어주시면 됩니다. */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'KangwonPro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* 만약 특정 Google Font를 사용하고 싶다면 예시: font-family: 'Dosis', sans-serif; */
 }
 

@@ -35,6 +35,11 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+ @font-face {
+  font-family: "Kangwonfont";
+  src: url("kangwon.ttf") format("truetype");
+ }
+
 *,
 *::before,
 *::after {
@@ -82,9 +87,13 @@ hr {
     overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+}
+
+h6 {
+    font-family: 'Kangwonfont', sans-serif;
 }
 
 p {

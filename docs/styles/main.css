@@ -38,6 +38,8 @@
  @font-face {
   font-family: "Kangwonfont";
   src: url("kangwon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
  }
 
 *,

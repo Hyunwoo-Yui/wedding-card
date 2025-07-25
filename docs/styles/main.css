@@ -55,6 +55,13 @@ html {
     width: device-width;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+
+.holiday {
+  color: red;
+}
+
+
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
@@ -10070,4 +10077,22 @@ body {
 h6, .h6 {
     font-family: 'Kangwonfont', sans-serif; /* Kangwonfont가 없을 경우를 대비해 기본 폰트 추가 */
     font-weight: normal; /* 폰트 굵기를 normal로 확실하게 지정 */
+}
+
+caption {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+  color: red;
+}
+
+.wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: grape nuts;
 }

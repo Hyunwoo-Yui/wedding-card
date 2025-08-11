@@ -10089,6 +10089,10 @@ th:nth-child(1) {
   color: red;
 }
 
+th:nth-child(7) {
+  color: blue;
+}
+
 .wrapper {
   margin-top: 60px;
   display: flex;

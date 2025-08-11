@@ -10094,6 +10094,15 @@ th:nth-child(7) {
   color: blue;
 }
 
+tr:nth-child(3),
+td:nth-child(7) {
+  background-color: #f7e6f8;
+  border: 2px solid #e0b4d4;
+  border-radius: 5px; /* 네모난 모양 */
+  font-weight: bold;
+  color: #9c27b0;
+}
+
 .wrapper {
   margin-top: 60px;
   display: flex;

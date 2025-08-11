@@ -10089,6 +10089,7 @@ th:nth-child(1) {
   color: red;
 }
 
+td:nth-child(1),
 th:nth-child(7) {
   color: cornflowerblue;
 }

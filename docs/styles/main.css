@@ -10091,7 +10091,7 @@ th:nth-child(1) {
 
 td:nth-child(7),
 th:nth-child(7) {
-  color: cornflowerblue;
+  color: blue;
 }
 
 .wrapper {
